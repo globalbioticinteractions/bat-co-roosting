@@ -2,4 +2,6 @@
 
 Configuration to help Global Biotic Interactions (GloBI, https://globalbioticinteractions.org) index: 
 
+:warning: This is a work in progress.
+
 Aja Sherman, Cullen Geiselman. 2021. Bat Co-Roosting Database
