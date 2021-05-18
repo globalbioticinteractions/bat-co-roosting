@@ -1,0 +1,140 @@
+{
+  "@context" : [ "http://www.w3.org/ns/csvw", {
+    "@language" : "en"
+  } ],
+  "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+  "tables" : [ {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "https://docs.google.com/spreadsheets/u/0/d/11GsFh1sZc7_Q92TF5DSkfa8pFfXiq_R_wRX-j34OzsM/export?format=tsv&gid=1713505179",
+    "dcterms:bibliographicCitation" : "Aja Sherman, Cullen Geiselman. 2021. Bat Co-Roosting Database",
+    "delimiter" : "\t",
+    "headerRowCount" : 1,
+    "null" : [ "" ],
+    "tableSchema" : {
+      "columns" : [ {
+        "name" : "occurenceId",
+        "titles" : "occurenceId",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonName",
+        "titles" : "sourceTaxonName",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonName",
+        "titles" : "targetTaxonName",
+        "datatype" : "string"
+      }, {
+        "name" : "interactionTypeName",
+        "titles" : "interactionTypeName",
+        "datatype" : "string"
+      }, {
+        "name" : "observationDateTime",
+        "titles" : "observationDateTime",
+        "datatype" : "string"
+      }, {
+        "name" : "Country",
+        "titles" : "Country",
+        "datatype" : "string"
+      }, {
+        "name" : "localityName",
+        "titles" : "localityName",
+        "datatype" : "string"
+      }, {
+        "name" : "synchronous_YN",
+        "titles" : "synchronous_YN",
+        "datatype" : "string"
+      }, {
+        "name" : "contact_YN",
+        "titles" : "contact_YN",
+        "datatype" : "string"
+      }, {
+        "name" : "roostCat1",
+        "titles" : "roostCat1",
+        "datatype" : "string"
+      }, {
+        "name" : "ENVO_cat1",
+        "titles" : "ENVO_cat1",
+        "datatype" : "string"
+      }, {
+        "name" : "roostCat2",
+        "titles" : "roostCat2",
+        "datatype" : "string"
+      }, {
+        "name" : "ENVO_cat2",
+        "titles" : "ENVO_cat2",
+        "datatype" : "string"
+      }, {
+        "name" : "roostCat3",
+        "titles" : "roostCat3",
+        "datatype" : "string"
+      }, {
+        "name" : "ENVO_cat3",
+        "titles" : "ENVO_cat3",
+        "datatype" : "string"
+      }, {
+        "name" : "roostTaxonName",
+        "titles" : "roostTaxonName",
+        "datatype" : "string"
+      }, {
+        "name" : "roostText",
+        "titles" : "roostText",
+        "datatype" : "string"
+      }, {
+        "name" : "roostUsageType",
+        "titles" : "roostUsageType",
+        "datatype" : "string"
+      }, {
+        "name" : "Other interaction",
+        "titles" : "Other interaction",
+        "datatype" : "string"
+      }, {
+        "name" : "referencePage",
+        "titles" : "referencePage",
+        "datatype" : "string"
+      }, {
+        "name" : "referenceFileName",
+        "titles" : "referenceFileName",
+        "datatype" : "string"
+      }, {
+        "name" : "referenceDOI",
+        "titles" : "referenceDOI",
+        "datatype" : "string"
+      }, {
+        "name" : "referenceURL",
+        "titles" : "referenceURL",
+        "datatype" : "string"
+      }, {
+        "name" : "referenceCitation",
+        "titles" : "referenceCitation",
+        "datatype" : "string"
+      }, {
+        "name" : "contributors",
+        "titles" : "contributors",
+        "datatype" : "string"
+      }, {
+        "name" : "interactionTypeId",
+        "titles" : "interactionTypeId",
+        "datatype" : "string"
+      }, {
+        "name" : "Time (mins)",
+        "titles" : "Time (mins)",
+        "datatype" : "string"
+      }, {
+        "name" : "Basis of record",
+        "titles" : "Basis of record",
+        "datatype" : "string"
+      }, {
+        "name" : "Citation",
+        "titles" : "Citation",
+        "datatype" : "string"
+      }, {
+        "name" : "Anecdotal",
+        "titles" : "Anecdotal",
+        "datatype" : "string"
+      } ]
+    }
+  } ]
+}

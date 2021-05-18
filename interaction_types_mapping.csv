@@ -1,0 +1,5 @@
+provided_interaction_type_label,provided_interaction_type_id,mapped_to_interaction_type_label,mapped_to_interaction_type_id
+Asynchronous communal roosting,,ecologically related to ,http://purl.obolibrary.org/obo/RO_0002321
+co-roosts with,,co-roosts with,http://purl.obolibrary.org/obo/RO_0002801
+Potentially roost communally,,ecologically related to ,http://purl.obolibrary.org/obo/RO_0002321
+roosts in,,interacts with,http://purl.obolibrary.org/obo/RO_0002437
