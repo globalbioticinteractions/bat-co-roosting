@@ -31,7 +31,7 @@
         "titles" : "interactionTypeName",
         "datatype" : "string"
       }, {
-        "name" : "observationDateTime",
+        "name" : "http://rs.tdwg.org/dwc/terms/eventDate",
         "titles" : "observationDateTime",
         "datatype" : "string"
       }, {
@@ -99,11 +99,11 @@
         "titles" : "referenceFileName",
         "datatype" : "string"
       }, {
-        "name" : "referenceDOI",
+        "name" : "referenceDoi",
         "titles" : "referenceDOI",
         "datatype" : "string"
       }, {
-        "name" : "referenceURL",
+        "name" : "referenceUrl",
         "titles" : "referenceURL",
         "datatype" : "string"
       }, {
