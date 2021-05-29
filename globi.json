@@ -15,7 +15,7 @@
     "null" : [ "" ],
     "tableSchema" : {
       "columns" : [ {
-        "name" : "occurenceId",
+        "name" : "sourceOccurenceId",
         "titles" : "occurenceId",
         "datatype" : "string"
       }, {
@@ -29,6 +29,10 @@
       }, {
         "name" : "interactionTypeName",
         "titles" : "interactionTypeName",
+        "datatype" : "string"
+      }, {
+        "name" : "interactionTypeId",
+        "titles" : "interactionTypeId",
         "datatype" : "string"
       }, {
         "name" : "http://rs.tdwg.org/dwc/terms/eventDate",
@@ -91,6 +95,14 @@
         "titles" : "Other interaction",
         "datatype" : "string"
       }, {
+        "name" : "FrequencyofOccurances",
+        "titles" : "FrequencyofOccurances",
+        "datatype" : "string"
+      }, {
+        "name" : "parasiteText",
+        "titles" : "parasiteText",
+        "datatype" : "string"
+      }, {
         "name" : "referencePage",
         "titles" : "referencePage",
         "datatype" : "string"
@@ -115,7 +127,7 @@
         "titles" : "contributors",
         "datatype" : "string"
       }, {
-        "name" : "interactionTypeId",
+        "name" : "interactionTypeId2",
         "titles" : "interactionTypeId",
         "datatype" : "string"
       }, {
@@ -127,12 +139,8 @@
         "titles" : "Basis of record",
         "datatype" : "string"
       }, {
-        "name" : "Citation",
-        "titles" : "Citation",
-        "datatype" : "string"
-      }, {
-        "name" : "Anecdotal",
-        "titles" : "Anecdotal",
+        "name" : "Noted taxonomy",
+        "titles" : "Noted taxonomy",
         "datatype" : "string"
       } ]
     }
