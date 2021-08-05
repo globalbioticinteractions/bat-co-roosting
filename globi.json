@@ -12,7 +12,7 @@
     "dcterms:bibliographicCitation" : "Aja Sherman, Cullen Geiselman. 2021. Bat Co-Roosting Database",
     "delimiter" : "\t",
     "headerRowCount" : 1,
-    "null" : [ "" ],
+    "null" : [ "", "none", "N/A" ],
     "tableSchema" : {
       "columns" : [ {
         "name" : "sourceOccurenceId",
