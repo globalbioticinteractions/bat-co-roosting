@@ -83,28 +83,36 @@
         "titles" : "roostTaxonName",
         "datatype" : "string"
       }, {
-        "name" : "roostText",
-        "titles" : "roostText",
+        "name" : "interactionText",
+        "titles" : "interactionText",
         "datatype" : "string"
       }, {
         "name" : "roostUsageType",
         "titles" : "roostUsageType",
         "datatype" : "string"
       }, {
-        "name" : "Other interaction",
-        "titles" : "Other interaction",
+        "name" : "InteractionReferencePage",
+        "titles" : "InteractionReferencePage",
+        "datatype" : "string"
+      },{
+        "name" : "basisOfRecord",
+        "titles" : "Basis of record",
+        "datatype" : "string"
+      },{
+        "name" : "RecordReference",
+        "titles" : "RecordReference",
         "datatype" : "string"
       }, {
         "name" : "FrequencyofOccurances",
         "titles" : "FrequencyofOccurances",
         "datatype" : "string"
       }, {
-        "name" : "parasiteText",
-        "titles" : "parasiteText",
+        "name" : "Tags",
+        "titles" : "Tags",
         "datatype" : "string"
       }, {
-        "name" : "referencePage",
-        "titles" : "referencePage",
+        "name" : "Habitat",
+        "titles" : "Habitat",
         "datatype" : "string"
       }, {
         "name" : "referenceFileName",
@@ -127,20 +135,12 @@
         "titles" : "contributors",
         "datatype" : "string"
       }, {
-        "name" : "interactionTypeId2",
-        "titles" : "interactionTypeId",
+        "name" : "Occurance Value",
+        "titles" : "Occurance Value",
         "datatype" : "string"
       }, {
-        "name" : "Time (mins)",
-        "titles" : "Time (mins)",
-        "datatype" : "string"
-      }, {
-        "name" : "Basis of record",
-        "titles" : "Basis of record",
-        "datatype" : "string"
-      }, {
-        "name" : "Noted taxonomy",
-        "titles" : "Noted taxonomy",
+        "name" : "Gazeteer included",
+        "titles" : "Gazeteer included",
         "datatype" : "string"
       } ]
     }
