@@ -35,8 +35,20 @@
         "titles" : "interactionTypeId",
         "datatype" : "string"
       }, {
+        "name" : "Season",
+        "titles" : "Season",
+        "datatype" : "string"
+      },{
+        "name" : "Date",
+        "titles" : "Date",
+        "datatype" : "string"
+      },{
+        "name" : "Month",
+        "titles" : "Month",
+        "datatype" : "string"
+      },{
         "name" : "http://rs.tdwg.org/dwc/terms/eventDate",
-        "titles" : "observationDateTime",
+        "titles" : "Year",
         "datatype" : "string"
       }, {
         "name" : "Country",
