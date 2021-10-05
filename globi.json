@@ -91,10 +91,6 @@
         "titles" : "ENVO_cat3",
         "datatype" : "string"
       }, {
-        "name" : "roostTaxonName",
-        "titles" : "roostTaxonName",
-        "datatype" : "string"
-      }, {
         "name" : "interactionText",
         "titles" : "interactionText",
         "datatype" : "string"
