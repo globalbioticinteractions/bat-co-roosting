@@ -11,7 +11,8 @@
       "datatype": "string"
     },
     {
-      "name": "targetTaxonName",
+      "_comment": "disable mapping; use cat3 instead",
+      "name": "_targetTaxonName",
       "titles": "targetTaxonName",
       "datatype": "string"
     },
@@ -101,12 +102,12 @@
       "datatype": "string"
     },
     {
-      "name": "roostCat3",
+      "name": "targetTaxonName",
       "titles": "roostCat3",
       "datatype": "string"
     },
     {
-      "name": "ENVO_cat3",
+      "name": "targetTaxonId",
       "titles": "ENVO_cat3",
       "datatype": "string"
     },

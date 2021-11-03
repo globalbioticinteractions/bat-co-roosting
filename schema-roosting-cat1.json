@@ -11,7 +11,8 @@
       "datatype": "string"
     },
     {
-      "name": "targetTaxonName",
+      "_comment": "disable mapping; map cat1 instead",
+      "name": "_targetTaxonName",
       "titles": "targetTaxonName",
       "datatype": "string"
     },
@@ -81,12 +82,12 @@
       "datatype": "string"
     },
     {
-      "name": "roostCat1",
+      "name": "targetTaxonName",
       "titles": "roostCat1",
       "datatype": "string"
     },
     {
-      "name": "ENVO_cat1",
+      "name": "targetTaxonId",
       "titles": "ENVO_cat1",
       "datatype": "string"
     },
