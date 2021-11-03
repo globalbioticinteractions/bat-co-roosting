@@ -1,156 +1,63 @@
 {
-  "@context" : [ "http://www.w3.org/ns/csvw", {
-    "@language" : "en"
-  } ],
-  "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
-  "tables" : [ {
-    "@context" : [ "http://www.w3.org/ns/csvw", {
-      "@language" : "en"
-    } ],
-    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
-    "url" : "https://docs.google.com/spreadsheets/u/0/d/11GsFh1sZc7_Q92TF5DSkfa8pFfXiq_R_wRX-j34OzsM/export?format=tsv&gid=1713505179",
-    "dcterms:bibliographicCitation" : "Aja Sherman, Cullen Geiselman. 2021. Bat Co-Roosting Database",
-    "delimiter" : "\t",
-    "headerRowCount" : 1,
-    "null" : [ "", "none", "N/A" ],
-    "tableSchema" : {
-      "columns" : [ {
-        "name" : "sourceOccurenceId",
-        "titles" : "occurenceId",
-        "datatype" : "string"
-      }, {
-        "name" : "sourceTaxonName",
-        "titles" : "sourceTaxonName",
-        "datatype" : "string"
-      }, {
-        "name" : "targetTaxonName",
-        "titles" : "targetTaxonName",
-        "datatype" : "string"
-      }, {
-        "name" : "interactionTypeName",
-        "titles" : "interactionTypeName",
-        "datatype" : "string"
-      }, {
-        "name" : "interactionTypeId",
-        "titles" : "interactionTypeId",
-        "datatype" : "string"
-      }, {
-        "name" : "Season",
-        "titles" : "Season",
-        "datatype" : "string"
-      },{
-        "name" : "Date",
-        "titles" : "Date",
-        "datatype" : "string"
-      },{
-        "name" : "Month",
-        "titles" : "Month",
-        "datatype" : "string"
-      },{
-        "name" : "http://rs.tdwg.org/dwc/terms/eventDate",
-        "titles" : "Year",
-        "datatype" : "string"
-      }, {
-        "name" : "Country",
-        "titles" : "Country",
-        "datatype" : "string"
-      }, {
-        "name" : "localityName",
-        "titles" : "localityName",
-        "datatype" : "string"
-      }, {
-        "name" : "synchronous_YN",
-        "titles" : "synchronous_YN",
-        "datatype" : "string"
-      }, {
-        "name" : "contact_YN",
-        "titles" : "contact_YN",
-        "datatype" : "string"
-      }, {
-        "name" : "roostCat1",
-        "titles" : "roostCat1",
-        "datatype" : "string"
-      }, {
-        "name" : "ENVO_cat1",
-        "titles" : "ENVO_cat1",
-        "datatype" : "string"
-      }, {
-        "name" : "roostCat2",
-        "titles" : "roostCat2",
-        "datatype" : "string"
-      }, {
-        "name" : "ENVO_cat2",
-        "titles" : "ENVO_cat2",
-        "datatype" : "string"
-      }, {
-        "name" : "roostCat3",
-        "titles" : "roostCat3",
-        "datatype" : "string"
-      }, {
-        "name" : "ENVO_cat3",
-        "titles" : "ENVO_cat3",
-        "datatype" : "string"
-      }, {
-        "name" : "interactionText",
-        "titles" : "interactionText",
-        "datatype" : "string"
-      }, {
-        "name" : "roostUsageType",
-        "titles" : "roostUsageType",
-        "datatype" : "string"
-      }, {
-        "name" : "InteractionReferencePage",
-        "titles" : "InteractionReferencePage",
-        "datatype" : "string"
-      },{
-        "name" : "basisOfRecord",
-        "titles" : "Basis of record",
-        "datatype" : "string"
-      },{
-        "name" : "RecordReference",
-        "titles" : "RecordReference",
-        "datatype" : "string"
-      }, {
-        "name" : "FrequencyofOccurances",
-        "titles" : "FrequencyofOccurances",
-        "datatype" : "string"
-      }, {
-        "name" : "Tags",
-        "titles" : "Tags",
-        "datatype" : "string"
-      }, {
-        "name" : "Habitat",
-        "titles" : "Habitat",
-        "datatype" : "string"
-      }, {
-        "name" : "referenceFileName",
-        "titles" : "referenceFileName",
-        "datatype" : "string"
-      }, {
-        "name" : "referenceDoi",
-        "titles" : "referenceDOI",
-        "datatype" : "string"
-      }, {
-        "name" : "referenceUrl",
-        "titles" : "referenceURL",
-        "datatype" : "string"
-      }, {
-        "name" : "referenceCitation",
-        "titles" : "referenceCitation",
-        "datatype" : "string"
-      }, {
-        "name" : "contributors",
-        "titles" : "contributors",
-        "datatype" : "string"
-      }, {
-        "name" : "Occurance Value",
-        "titles" : "Occurance Value",
-        "datatype" : "string"
-      }, {
-        "name" : "Gazeteer included",
-        "titles" : "Gazeteer included",
-        "datatype" : "string"
-      } ]
+  "@context": [
+    "http://www.w3.org/ns/csvw",
+    {
+      "@language": "en"
     }
-  } ]
+  ],
+  "rdfs:comment": [
+    "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/"
+  ],
+  "tables": [
+    {
+      "url": "interactions.tsv",
+      "dcterms:bibliographicCitation": "Aja Sherman, Cullen Geiselman. 2021. Bat Co-Roosting Database",
+      "delimiter": "\t",
+      "headerRowCount": 1,
+      "null": [
+        ""
+      ],
+      "tableSchema": "schema-co-roosting.json"
+    },
+    {
+      "url": "interactions.tsv",
+      "dcterms:bibliographicCitation": "Aja Sherman, Cullen Geiselman. 2021. Bat Co-Roosting Database",
+      "delimiter": "\t",
+      "headerRowCount": 1,
+      "null": [
+        ""
+      ],
+      "tableSchema": "schema-co-roosting.json"
+    },
+    {
+      "url": "interactions.tsv",
+      "dcterms:bibliographicCitation": "Aja Sherman, Cullen Geiselman. 2021. Bat Co-Roosting Database",
+      "delimiter": "\t",
+      "headerRowCount": 1,
+      "null": [
+        ""
+      ],
+      "tableSchema": "schema-roosting-cat1.json"
+    },
+    {
+      "url": "interactions.tsv",
+      "dcterms:bibliographicCitation": "Aja Sherman, Cullen Geiselman. 2021. Bat Co-Roosting Database",
+      "delimiter": "\t",
+      "headerRowCount": 1,
+      "null": [
+        ""
+      ],
+      "tableSchema": "schema-roosting-cat2.json"
+    },
+    {
+      "url": "interactions.tsv",
+      "dcterms:bibliographicCitation": "Aja Sherman, Cullen Geiselman. 2021. Bat Co-Roosting Database",
+      "delimiter": "\t",
+      "headerRowCount": 1,
+      "null": [
+        ""
+      ],
+      "tableSchema": "schema-roosting-cat3.json"
+    }
+  ]
 }
