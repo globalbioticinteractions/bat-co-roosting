@@ -17,12 +17,12 @@
       "datatype": "string"
     },
     {
-      "name": "interactionTypeName",
+      "name": "_interactionTypeName",
       "titles": "interactionTypeName",
       "datatype": "string"
     },
     {
-      "name": "interactionTypeId",
+      "name": "_interactionTypeId",
       "titles": "interactionTypeId",
       "datatype": "string"
     },
