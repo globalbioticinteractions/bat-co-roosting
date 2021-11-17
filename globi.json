@@ -15,7 +15,7 @@
       "delimiter": "\t",
       "headerRowCount": 1,
       "null": [
-        ""
+        "none", "", "N/A"
       ],
       "tableSchema": "schema-co-roosting.json"
     },
@@ -25,7 +25,7 @@
       "delimiter": "\t",
       "headerRowCount": 1,
       "null": [
-        ""
+        "none", "", "N/A"
       ],
       "interactionTypeName": "hasHabitat",
       "interactionTypeId": "http://purl.obolibrary.org/obo/RO_0002303",
@@ -37,7 +37,7 @@
       "delimiter": "\t",
       "headerRowCount": 1,
       "null": [
-        ""
+        "none", "", "N/A"
       ],
       "interactionTypeName": "hasHabitat",
       "interactionTypeId": "http://purl.obolibrary.org/obo/RO_0002303",
@@ -49,7 +49,7 @@
       "delimiter": "\t",
       "headerRowCount": 1,
       "null": [
-        ""
+        "none", "", "N/A"
       ],
       "interactionTypeName": "hasHabitat",
       "interactionTypeId": "http://purl.obolibrary.org/obo/RO_0002303",
