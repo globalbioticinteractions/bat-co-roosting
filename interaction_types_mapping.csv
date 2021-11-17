@@ -1,7 +1,25 @@
 provided_interaction_type_label,provided_interaction_type_id,mapped_to_interaction_type_label,mapped_to_interaction_type_id
 Asynchronous communal roosting,,ecologically related to ,http://purl.obolibrary.org/obo/RO_0002321
 co-roosts with,,co-roosts with,http://purl.obolibrary.org/obo/RO_0002801
+co-roost with,,co-roosts with,http://purl.obolibrary.org/obo/RO_0002801
 shares a roost with,,co-roosts with,http://purl.obolibrary.org/obo/RO_0002801
 Potentially roost communally,,ecologically related to ,http://purl.obolibrary.org/obo/RO_0002321
 roosts in,,interacts with,http://purl.obolibrary.org/obo/RO_0002437
+roost in,,interacts with,http://purl.obolibrary.org/obo/RO_0002437
+Interspecific interaction,,interacts with,http://purl.obolibrary.org/obo/RO_0002437
+commensually interacts with,,interacts with,http://purl.obolibrary.org/obo/RO_0002437
+disturbed by,,interacts with,http://purl.obolibrary.org/obo/RO_0002437
+prey on,,preysOn,http://purl.obolibrary.org/obo/RO_0002439
+preys on,,preysOn,http://purl.obolibrary.org/obo/RO_0002439
+preyed upon by,,preyedUponBy,http://purl.obolibrary.org/obo/RO_0002458
+pollinate,,pollinates,http://purl.obolibrary.org/obo/RO_0002455
+eat,,eats,http://purl.obolibrary.org/obo/RO_0002470
+is eaten by,,is eaten by,http://purl.obolibrary.org/obo/RO_0002471
+exsanguinate,,eats,http://purl.obolibrary.org/obo/RO_0002470
+killed by,,is killed by,http://purl.obolibrary.org/obo/RO_0002627
+is killed by,,is killed by,http://purl.obolibrary.org/obo/RO_0002627
+hunted by,,is killed by,http://purl.obolibrary.org/obo/RO_0002627
+parasitized by,,hasParasite,http://purl.obolibrary.org/obo/RO_0002445
 inhabiting the same spatial area,,co-occurs with,http://purl.obolibrary.org/obo/RO_0008506
+cohabitate with,,co-occurs with,http://purl.obolibrary.org/obo/RO_0008506
+cohabitates with,,co-occurs with,http://purl.obolibrary.org/obo/RO_0008506
