@@ -6,6 +6,9 @@ Configuration to help Global Biotic Interactions (GloBI, https://globalbioticint
 
 Aja Sherman, Cullen Geiselman. 2021. Bat Co-Roosting Database
 
+## Questions? Ideas?
+Do you have any questions, comments or ideas? Please [open an issue](../../issues), join [our slack channel](https://covid19taf.slack.com/archives/C011W4GPXDX), or attend [our weekly meetings](https://globalbioticinteractions.org/covid19). 
+
 ## Updating 
 Currently, the interactions.tsv in this repository is updated manually. 
 
@@ -29,4 +32,4 @@ To update interactions.tsv with the most recent version in https://docs.google.c
 15. click "ok" to save the current sheet as a tsv file
 16. add the exported file to the github repository (e.g., interactions.tsv)
 
-We are working on automating this procedure, and please share ideas on how to do this by [opening an issue](../issues). 
+We are working on automating this procedure, and please share ideas on how to do this by [opening an issue](../../issues). 
