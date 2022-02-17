@@ -4,7 +4,7 @@ Configuration to help Global Biotic Interactions (GloBI, https://globalbioticint
 
 :warning: work in progress.
 
-Aja Sherman, Cullen Geiselman. 2021. Bat Co-Roosting Database
+Aja Sherman, Cullen Geiselman. 2021/2022. Bat Co-Roosting Database
 
 ## Questions? Ideas?
 Do you have any questions, comments or ideas? Please [open an issue](../../issues), join [our slack channel](https://covid19taf.slack.com/archives/C011W4GPXDX), or attend [our weekly meetings](https://globalbioticinteractions.org/covid19). 
