@@ -6,6 +6,8 @@ Configuration to help Global Biotic Interactions (GloBI, https://globalbioticint
 
 Aja Sherman, Cullen Geiselman. 2021/2022. Bat Co-Roosting Database
 
+You can view the GLOBI-indexed interactions (here)[https://www.globalbioticinteractions.org/browse/?accordingTo=globi%3Aglobalbioticinteractions%2Fbat-co-roosting-database&interactionType=ecologicallyRelatedTo&resultType=json].
+
 ## Questions? Ideas?
 Do you have any questions, comments or ideas? Please [open an issue](../../issues), join [our slack channel](https://covid19taf.slack.com/archives/C011W4GPXDX), or attend [our weekly meetings](https://globalbioticinteractions.org/covid19). 
 
