@@ -4,12 +4,15 @@ Configuration to help Global Biotic Interactions (GloBI, https://globalbioticint
 
 :warning: work in progress.
 
-Aja Sherman, Cullen Geiselman. 2021/2022. Bat Co-Roosting Database
+Sherman, Aja C.;  Geiselman, Cullen;  Simons, Nancy B.;  Upham, Nathan S.;  Poelen, Jorrit H.;  Reeder, DeeAnn M.;  Bertolino, Sandro;  Groom, Quentin;  Phelps, Kendra;  Agosti, Donat;  Willoughby, Anna R. In Preparation. Bat-Co-Roosting Database develop by the Biodiversity-related knowledge hub on COVID-19. 
 
 You can view the GLOBI-indexed interactions [here](https://www.globalbioticinteractions.org/browse/?accordingTo=globi%3Aglobalbioticinteractions%2Fbat-co-roosting-database&interactionType=ecologicallyRelatedTo&resultType=json).
 
 ## Questions? Ideas?
 Do you have any questions, comments or ideas? Please [open an issue](../../issues), join [our slack channel](https://covid19taf.slack.com/archives/C011W4GPXDX), or attend [our weekly meetings](https://globalbioticinteractions.org/covid19). 
+
+## Outreach 
+- Watch ["What do we not know? Quantifying data gaps and biases in knowledge of bat co-roosting"](https://zenodo.org/record/6959687) presented by Aja C. Sherman at the 19th International Bat Research Confernce in Austin, Texas on August 11, 2022. 
 
 ## Updating 
 Currently, the interactions.tsv in this repository is updated manually. 
