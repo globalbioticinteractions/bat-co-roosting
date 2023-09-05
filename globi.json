@@ -8,8 +8,8 @@
       "@language" : "en"
     } ],
     "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
-    "url" : "file:///home/jorrit/proj/globi/data-new/bat-co-roosting-database/interactions.tsv",
-    "dcterms:bibliographicCitation" : "Sherman, AC et al. 2023. Bat Co-Roosting Database",
+    "url" : "interactions.tsv",
+    "dcterms:bibliographicCitation" : "Sherman, Aja C.; Geiselman, Cullen; Simons, Nancy B.; Upham, Nathan S.; Poelen, Jorrit H.; Reeder, DeeAnn M.; Bertolino, Sandro; Groom, Quentin; Phelps, Kendra; Agosti, Donat; Willoughby, Anna R. In Preparation. Bat-Co-Roosting Database develop by the Biodiversity-related knowledge hub on COVID-19.",
     "delimiter" : "\t",
     "headerRowCount" : 1,
     "null" : [ "" ],
