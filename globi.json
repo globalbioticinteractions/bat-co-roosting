@@ -12,7 +12,7 @@
     "dcterms:bibliographicCitation" : "Sherman, Aja C.; Geiselman, Cullen; Simons, Nancy B.; Upham, Nathan S.; Poelen, Jorrit H.; Reeder, DeeAnn M.; Bertolino, Sandro; Groom, Quentin; Phelps, Kendra; Agosti, Donat; Willoughby, Anna R. In Preparation. Bat-Co-Roosting Database develop by the Biodiversity-related knowledge hub on COVID-19.",
     "delimiter" : "\t",
     "headerRowCount" : 1,
-    "null" : [ "" ],
+    "null" : [ "none", "N/A", "#NAME?" ],
     "tableSchema" : {
       "columns" : [ {
         "name" : "occurenceId",
