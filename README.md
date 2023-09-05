@@ -1,4 +1,4 @@
-[![Review](https://github.com/globalbioticinteractions/bat-co-roosting-database/actions/workflows/review.yml/badge.svg)](https://github.com/globalbioticinteractions/bat-co-roosting-database/actions) [![Build Status](https://app.travis-ci.com/globalbioticinteractions/bat-co-roosting-database.svg)](https://app.travis-ci.com/globalbioticinteractions/bat-co-roosting-database) [![GloBI](https://api.globalbioticinteractions.org/interaction.svg?accordingTo=globi:globalbioticinteractions/bat-co-roosting-database)](https://globalbioticinteractions.org/?accordingTo=globi:globalbioticinteractions/bat-co-roosting-database)
+[![GloBI Review by Elton](../../actions/workflows/review.yml/badge.svg)](../../actions/workflows/review.yml) [![GloBI](https://api.globalbioticinteractions.org/interaction.svg?accordingTo=globi:globalbioticinteractions/bat-co-roosting-database&refutes=true&refutes=false)](https://globalbioticinteractions.org/?accordingTo=globi:globalbioticinteractions/bat-co-roosting-database)
 
 Configuration to help Global Biotic Interactions (GloBI, https://globalbioticinteractions.org) index: 
 
@@ -17,9 +17,9 @@ Do you have any questions, comments or ideas? Please [open an issue](../../issue
 ## Updating 
 Currently, the interactions.tsv in this repository is updated manually. 
 
-To update interactions.tsv with the most recent version in https://docs.google.com/spreadsheets/d/1vQq_DBNs86Wrtwc71JlCM4dyNPnILhdANPzQuRKOcUE/edit#gid=1008904579 take the following steps:
+To update interactions.tsv with the most recent version in https://docs.google.com/spreadsheets/d/1y5uBKvyzDQgQUtyRHvn5f20IOA7LoMho/edit#gid=691336520 take the following steps:
 
-1. download https://docs.google.com/spreadsheets/d/1vQq_DBNs86Wrtwc71JlCM4dyNPnILhdANPzQuRKOcUE/edit#gid=1008904579 as a excel spreadsheet
+1. download https://docs.google.com/spreadsheets/d/1y5uBKvyzDQgQUtyRHvn5f20IOA7LoMho/edit#gid=691336520 as a excel spreadsheet
 2. open downloaded spreadsheet in LibreOffice Calc 
 3. select the interaction-extract tab
 4. go to Menu > Edit > Find & Replace
