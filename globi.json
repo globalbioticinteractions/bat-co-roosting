@@ -75,8 +75,12 @@
         "titles" : "End Year",
         "datatype" : "string"
       }, {
-        "name" : "localityContinent",
-        "titles" : "localityContinent",
+        "name" : "localityContinentPolitical",
+        "titles" : "localityContinentPolitical",
+        "datatype" : "string"
+      }, { 
+        "name" : "localityContinentGeographic",
+        "titles" : "localityContinentGeographic",
         "datatype" : "string"
       }, {
         "name" : "localityCountry",
