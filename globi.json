@@ -15,7 +15,7 @@
     "null" : [ "" ],
     "tableSchema" : {
       "columns" : [ {
-        "name" : "referenceId",
+        "name" : "occuranceID",
         "titles" : "occuranceID",
         "datatype" : "string"
       }, {
@@ -219,7 +219,7 @@
         "titles" : "Habitat",
         "datatype" : "string"
       }, {
-        "name" : "referenceFileName",
+        "name" : "referenceCitation",
         "titles" : "referenceFileName",
         "datatype" : "string"
       }, {
