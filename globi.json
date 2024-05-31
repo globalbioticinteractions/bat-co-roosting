@@ -12,11 +12,35 @@
     "dcterms:bibliographicCitation" : "Sherman, Aja C.; Geiselman, Cullen; Simons, Nancy B.; Upham, Nathan S.; Poelen, Jorrit H.; Reeder, DeeAnn M.; Bertolino, Sandro; Groom, Quentin; Phelps, Kendra; Agosti, Donat; Willoughby, Anna R. In Preparation. Bat-Co-Roosting Database develop by the Biodiversity-related knowledge hub on COVID-19.",
     "delimiter" : "\t",
     "headerRowCount" : 1,
-    "null" : [ "none", "N/A", "#NAME?" ],
+    "null" : [ "" ],
     "tableSchema" : {
       "columns" : [ {
-        "name" : "occurenceId",
-        "titles" : "occurenceId",
+        "name" : "referenceId",
+        "titles" : "occuranceID",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonKingdomName",
+        "titles" : "kingdom_source",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonPhylumName",
+        "titles" : "phylum_source",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonClassName",
+        "titles" : "class_source",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonOrderName",
+        "titles" : "order_source",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonFamilyName",
+        "titles" : "family_source",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonGenusName",
+        "titles" : "genus_source",
         "datatype" : "string"
       }, {
         "name" : "BTA aligned",
@@ -31,15 +55,51 @@
         "titles" : "targetTaxonName",
         "datatype" : "string"
       }, {
-        "name" : "GBIF as of 8/30/2023 GBIF Secretariat. GBIF Backbone Taxonomy. Checklist dataset https://doi.org/10.15468/39omei accessed via GBIF.org on 2023-09-05.",
-        "titles" : "GBIF as of 8/30/2023 GBIF Secretariat. GBIF Backbone Taxonomy. Checklist dataset https://doi.org/10.15468/39omei accessed via GBIF.org on 2023-09-05.",
+        "name" : "Interpretted Name",
+        "titles" : "Interpretted Name",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonKingdomName",
+        "titles" : "kingdom_target",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonPhylumName",
+        "titles" : "phylum_target",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonClassName",
+        "titles" : "class_target",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonOrderName",
+        "titles" : "order_target",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonFamilyName",
+        "titles" : "family_target",
+        "datatype" : "string"
+      }, {
+        "name" : "genus_author_target",
+        "titles" : "genus_author_target",
+        "datatype" : "string"
+      }, {
+        "name" : "id_higher",
+        "titles" : "id_higher",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonGenusName",
+        "titles" : "genus_target",
+        "datatype" : "string"
+      }, {
+        "name" : "GBIF as of 8/30/2023 GBIF Secretariat. GBIF Backbone Taxonomy. Checklist dataset https://doi.org/10.15468/39omei accessed via GBIF.org on 2023-09-05. (* interpreted), crossreferenced with checklistbank. Bat species according to BTA; viruses according to ICTV",
+        "titles" : "GBIF as of 8/30/2023 GBIF Secretariat. GBIF Backbone Taxonomy. Checklist dataset https://doi.org/10.15468/39omei accessed via GBIF.org on 2023-09-05. (* interpreted), crossreferenced with checklistbank. Bat species according to BTA; viruses according to ICTV",
         "datatype" : "string"
       }, {
         "name" : "interactionTypeName",
         "titles" : "interactionTypeName",
         "datatype" : "string"
       }, {
-        "name" : "interaction_Ont",
+        "name" : "interactionTypeId",
         "titles" : "interaction_Ont",
         "datatype" : "string"
       }, {
@@ -59,7 +119,7 @@
         "titles" : "Start Date",
         "datatype" : "string"
       }, {
-        "name" : "eventDate",
+        "name" : "http://rs.tdwg.org/dwc/terms/eventDate",
         "titles" : "Start Year",
         "datatype" : "string"
       }, {
@@ -75,10 +135,10 @@
         "titles" : "End Year",
         "datatype" : "string"
       }, {
-        "name" : "localityName",
+        "name" : "localityContinentPolitical",
         "titles" : "localityContinentPolitical",
         "datatype" : "string"
-      }, { 
+      }, {
         "name" : "localityContinentGeographic",
         "titles" : "localityContinentGeographic",
         "datatype" : "string"
@@ -87,7 +147,7 @@
         "titles" : "localityCountry",
         "datatype" : "string"
       }, {
-        "name" : "localityNameDetail",
+        "name" : "localityName",
         "titles" : "localityName",
         "datatype" : "string"
       }, {
@@ -139,8 +199,8 @@
         "titles" : "InteractionReferencePage",
         "datatype" : "string"
       }, {
-        "name" : "Basis of record",
-        "titles" : "Basis of record",
+        "name" : "Basis of Record",
+        "titles" : "Basis of Record",
         "datatype" : "string"
       }, {
         "name" : "RecordReference",
@@ -155,32 +215,12 @@
         "titles" : "Tags",
         "datatype" : "string"
       }, {
-        "name" : "Habitat",
+        "name" : "habitatName",
         "titles" : "Habitat",
         "datatype" : "string"
       }, {
         "name" : "referenceFileName",
         "titles" : "referenceFileName",
-        "datatype" : "string"
-      }, {
-        "name" : "referenceDoi",
-        "titles" : "referenceDOI",
-        "datatype" : "string"
-      }, {
-        "name" : "",
-        "titles" : "",
-        "datatype" : "string"
-      }, {
-        "name" : "referenceUrl",
-        "titles" : "referenceURL",
-        "datatype" : "string"
-      }, {
-        "name" : "",
-        "titles" : "",
-        "datatype" : "string"
-      }, {
-        "name" : "referenceCitation",
-        "titles" : "referenceCitation",
         "datatype" : "string"
       }, {
         "name" : "contributors",
