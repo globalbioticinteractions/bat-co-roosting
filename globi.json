@@ -3,7 +3,8 @@
     "@language" : "en"
   } ],
   "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
-  "tables" : [ {
+  "tables" : [ 
+    {
     "@context" : [ "http://www.w3.org/ns/csvw", {
       "@language" : "en"
     } ],
@@ -14,6 +15,14 @@
     "headerRowCount" : 1,
     "null" : [ "" ],
     "tableSchema" : {
+      "foreignKeys": [
+          {
+            "columnReference": "referenceId",
+            "reference": {
+              "columnReference": "referenceId"
+            }
+          }
+        ],
       "columns" : [ {
         "name" : "occuranceID",
         "titles" : "occuranceID",
@@ -219,7 +228,7 @@
         "titles" : "Habitat",
         "datatype" : "string"
       }, {
-        "name" : "referenceCitation",
+        "name" : "referenceId",
         "titles" : "referenceFileName",
         "datatype" : "string"
       }, {
@@ -228,5 +237,323 @@
         "datatype" : "string"
       } ]
     }
-  } ]
+  }, {
+      "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "https://docs.google.com/spreadsheets/d/1y5uBKvyzDQgQUtyRHvn5f20IOA7LoMho/export?format=tsv&id=1y5uBKvyzDQgQUtyRHvn5f20IOA7LoMho&gid=1467945882",
+    "dcterms:bibliographicCitation" : "Sherman, Aja C.; Geiselman, Cullen; Simons, Nancy B.; Upham, Nathan S.; Poelen, Jorrit H.; Reeder, DeeAnn M.; Bertolino, Sandro; Groom, Quentin; Phelps, Kendra; Agosti, Donat; Willoughby, Anna R. In Preparation. Bat-Co-Roosting Database develop by the Biodiversity-related knowledge hub on COVID-19.",
+    "delimiter" : "\t",
+    "headerRowCount" : 1,
+    "null" : [ "" ],
+    "tableSchema" : {
+      "primaryKey": "referenceId",
+      "columns" : [ {
+        "name" : "referenceId",
+        "titles" : "referenceFileName",
+        "datatype" : "string"
+      }, {
+        "name" : "referenceDoi",
+        "titles" : "referenceDoi",
+        "datatype" : "string"
+      }, {
+        "name" : "referenceZenodo_id",
+        "titles" : "referenceZenodo_id",
+        "datatype" : "string"
+      }, {
+        "name" : "referenceUrl",
+        "titles" : "referenceUrl",
+        "datatype" : "string"
+      }, {
+        "name" : "Zenodo",
+        "titles" : "Zenodo",
+        "datatype" : "string"
+      }, {
+        "name" : "Zotero",
+        "titles" : "Zotero",
+        "datatype" : "string"
+      }, {
+        "name" : "referenceCitation",
+        "titles" : "referenceCitation",
+        "datatype" : "string"
+      }, {
+        "name" : "referenceJournal",
+        "titles" : "referenceJournal",
+        "datatype" : "string"
+      }, {
+        "name" : "journal_volume",
+        "titles" : "journal_volume",
+        "datatype" : "string"
+      }, {
+        "name" : "journal_issue",
+        "titles" : "journal_issue",
+        "datatype" : "string"
+      }, {
+        "name" : "journal_pages",
+        "titles" : "journal_pages",
+        "datatype" : "string"
+      }, {
+        "name" : "authors",
+        "titles" : "authors",
+        "datatype" : "string"
+      }, {
+        "name" : "title",
+        "titles" : "title",
+        "datatype" : "string"
+      }, {
+        "name" : "abstract",
+        "titles" : "abstract",
+        "datatype" : "string"
+      }, {
+        "name" : "PublicationYear",
+        "titles" : "PublicationYear",
+        "datatype" : "string"
+      }, {
+        "name" : "keyword 1",
+        "titles" : "keyword 1",
+        "datatype" : "string"
+      }, {
+        "name" : "keyword 2",
+        "titles" : "keyword 2",
+        "datatype" : "string"
+      }, {
+        "name" : "keyword 3",
+        "titles" : "keyword 3",
+        "datatype" : "string"
+      }, {
+        "name" : "keyword 4",
+        "titles" : "keyword 4",
+        "datatype" : "string"
+      }, {
+        "name" : "keyword 5",
+        "titles" : "keyword 5",
+        "datatype" : "string"
+      }, {
+        "name" : "keyword 6",
+        "titles" : "keyword 6",
+        "datatype" : "string"
+      }, {
+        "name" : "keyword 7",
+        "titles" : "keyword 7",
+        "datatype" : "string"
+      }, {
+        "name" : "keyword 8",
+        "titles" : "keyword 8",
+        "datatype" : "string"
+      }, {
+        "name" : "keyword 9",
+        "titles" : "keyword 9",
+        "datatype" : "string"
+      }, {
+        "name" : "keyword 10",
+        "titles" : "keyword 10",
+        "datatype" : "string"
+      }, {
+        "name" : "uploadType",
+        "titles" : "uploadType",
+        "datatype" : "string"
+      }, {
+        "name" : "publicationType",
+        "titles" : "publicationType",
+        "datatype" : "string"
+      }, {
+        "name" : "roost_referenceType",
+        "titles" : "roost_referenceType",
+        "datatype" : "string"
+      }, {
+        "name" : "parasite_referenceType",
+        "titles" : "parasite_referenceType",
+        "datatype" : "string"
+      }, {
+        "name" : "diet_referenceType",
+        "titles" : "diet_referenceType",
+        "datatype" : "string"
+      }, {
+        "name" : "Language",
+        "titles" : "Language",
+        "datatype" : "string"
+      }, {
+        "name" : "Full Text?",
+        "titles" : "Full Text?",
+        "datatype" : "string"
+      }, {
+        "name" : "partof_title",
+        "titles" : "partof_title",
+        "datatype" : "string"
+      }, {
+        "name" : "partof_pages",
+        "titles" : "partof_pages",
+        "datatype" : "string"
+      }, {
+        "name" : "access_right",
+        "titles" : "access_right",
+        "datatype" : "string"
+      }, {
+        "name" : "license",
+        "titles" : "license",
+        "datatype" : "string"
+      }, {
+        "name" : "embargo_date",
+        "titles" : "embargo_date",
+        "datatype" : "string"
+      }, {
+        "name" : "access_conditions",
+        "titles" : "access_conditions",
+        "datatype" : "string"
+      }, {
+        "name" : "pdf_available?",
+        "titles" : "pdf_available?",
+        "datatype" : "string"
+      }, {
+        "name" : "contributors",
+        "titles" : "contributors",
+        "datatype" : "string"
+      }, {
+        "name" : "interactions_extracted",
+        "titles" : "interactions_extracted",
+        "datatype" : "string"
+      }, {
+        "name" : "time_min",
+        "titles" : "time_min",
+        "datatype" : "string"
+      }, {
+        "name" : "pages",
+        "titles" : "pages",
+        "datatype" : "string"
+      }, {
+        "name" : "translated",
+        "titles" : "translated",
+        "datatype" : "string"
+      }, {
+        "name" : "Simmons Collection",
+        "titles" : "Simmons Collection",
+        "datatype" : "string"
+      }, {
+        "name" : "Willoughby et al. 2017",
+        "titles" : "Willoughby et al. 2017",
+        "datatype" : "string"
+      }, {
+        "name" : "MammSpecies_Citation",
+        "titles" : "MammSpecies_Citation",
+        "datatype" : "string"
+      }, {
+        "name" : "inBatBase?",
+        "titles" : "inBatBase?",
+        "datatype" : "string"
+      }, {
+        "name" : "inBatEcology",
+        "titles" : "inBatEcology",
+        "datatype" : "string"
+      }, {
+        "name" : "recordReference_In",
+        "titles" : "recordReference_In",
+        "datatype" : "string"
+      }, {
+        "name" : "order_reviewed",
+        "titles" : "order_reviewed",
+        "datatype" : "string"
+      }, {
+        "name" : "creator1_name",
+        "titles" : "creator1_name",
+        "datatype" : "string"
+      }, {
+        "name" : "creator1_affiliation",
+        "titles" : "creator1_affiliation",
+        "datatype" : "string"
+      }, {
+        "name" : "creator2_name",
+        "titles" : "creator2_name",
+        "datatype" : "string"
+      }, {
+        "name" : "creator2_affiliation",
+        "titles" : "creator2_affiliation",
+        "datatype" : "string"
+      }, {
+        "name" : "creator3_name",
+        "titles" : "creator3_name",
+        "datatype" : "string"
+      }, {
+        "name" : "creator3_affiliation",
+        "titles" : "creator3_affiliation",
+        "datatype" : "string"
+      }, {
+        "name" : "creator4_name",
+        "titles" : "creator4_name",
+        "datatype" : "string"
+      }, {
+        "name" : "creator4_affiliation",
+        "titles" : "creator4_affiliation",
+        "datatype" : "string"
+      }, {
+        "name" : "creator5_name",
+        "titles" : "creator5_name",
+        "datatype" : "string"
+      }, {
+        "name" : "creator5_affiliation",
+        "titles" : "creator5_affiliation",
+        "datatype" : "string"
+      }, {
+        "name" : "creator6_name",
+        "titles" : "creator6_name",
+        "datatype" : "string"
+      }, {
+        "name" : "creator6_affiliation",
+        "titles" : "creator6_affiliation",
+        "datatype" : "string"
+      }, {
+        "name" : "creator7_name",
+        "titles" : "creator7_name",
+        "datatype" : "string"
+      }, {
+        "name" : "creator7_affiliation",
+        "titles" : "creator7_affiliation",
+        "datatype" : "string"
+      }, {
+        "name" : "creator8_name",
+        "titles" : "creator8_name",
+        "datatype" : "string"
+      }, {
+        "name" : "creator8_affiliation",
+        "titles" : "creator8_affiliation",
+        "datatype" : "string"
+      }, {
+        "name" : "creator9_name",
+        "titles" : "creator9_name",
+        "datatype" : "string"
+      }, {
+        "name" : "creator9_affiliation",
+        "titles" : "creator9_affiliation",
+        "datatype" : "string"
+      }, {
+        "name" : "creator10_name",
+        "titles" : "creator10_name",
+        "datatype" : "string"
+      }, {
+        "name" : "creator10_affiliation",
+        "titles" : "creator10_affiliation",
+        "datatype" : "string"
+      }, {
+        "name" : "creator11_name",
+        "titles" : "creator11_name",
+        "datatype" : "string"
+      }, {
+        "name" : "creator11_affiliation",
+        "titles" : "creator11_affiliation",
+        "datatype" : "string"
+      }, {
+        "name" : "editors",
+        "titles" : "editors",
+        "datatype" : "string"
+      }, {
+        "name" : "publisher",
+        "titles" : "publisher",
+        "datatype" : "string"
+      }, {
+        "name" : "notes",
+        "titles" : "notes",
+        "datatype" : "string"
+      } ]   }
+  }  
+  ]
 }
